@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Demo-19-Jun5"
+  description: "Demo-19-Jun5 Tech docs"
+  annotations:
+    github.com/project-slug: praveen-nagarro/Demo-19-Jun5
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/guests"
